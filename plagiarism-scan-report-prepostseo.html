@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+
+
+<style>
+	body {
+			font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;	
+	}
+	table{
+		width:1000px;
+		max-width:100%;
+		border-collapse:collapse;
+	
+	}
+	table td {
+		border-collapse:collapse;
+		margin:0;
+		padding:10px 6px;
+	}
+	
+</style>
+
+<div style="margin:10px auto; float:none; width:1000px">
+	<div style="width:100%; text-align:center; padding:10px 0; border-bottom:1px solid #575757; margin-bottom:10px;">
+    	<img src="https://www.prepostseo.com/imgs/prepostseo.png" width="200" />
+    	<br>
+        <p style="font-size:20px; ">
+        	PLAGIARISM SCAN REPORT
+        </p>
+    </div>
+    <table>
+    	<tr>
+        	<td width="25%"><strong>Date</strong></td>
+            <td width="25%">February 06, 2020</td>
+            <td width="25%"><strong>Words</strong></td>
+            <td width="25%">178</td>
+        </tr>
+        <tr>
+        	<td><strong>Exclude URL:</strong></td>
+            <td colspan="3" style="color:#929191;"></td>
+        </tr>
+        <tr style="text-align:center;">
+        	<td colspan="2">
+            	<span style="display:block;background:#F2F3F3; padding:10px 0;">
+            	<span style="font-size:24px;color:#75A704;">100%</span> 
+                <br>Unique
+                </span>
+            </td>
+            <td colspan="2">
+            <span style="display:block;background:#F2F3F3; padding:10px 0;">
+            	<span style="font-size:24px;color:#EC0000;">0%%</span>
+                <br> Plagiarized
+                </span>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="4" style="font-size:16px; color:#006B5F; padding-top:20px; text-decoration:underline;">Content Checked for Plagiarism:</td>
+        </tr>
+        <tr>
+        	<td colspan="4">
+            	int EnaA = 9; <br />
+int EnaB = 3; <br />
+int MotA1 = 7; <br />
+int MotA2 = 6; <br />
+int MotB1 = 5; <br />
+int MotB2 = 4; /<br />
+<br />
+<br />
+int Right = A0; <br />
+int Left = A1; <br />
+<br />
+void setup() {<br />
+  <br />
+pinMode(EnaA, OUTPUT); <br />
+pinMode(EnaB, OUTPUT); <br />
+pinMode(MotA1, OUTPUT); <br />
+pinMode(MotA2, OUTPUT); <br />
+pinMode(MotB1, OUTPUT); <br />
+pinMode(MotB2, OUTPUT); <br />
+pinMode(Right, INPUT); <br />
+pinMode(Left, INPUT); <br />
+<br />
+}<br />
+<br />
+void loop() {<br />
+  <br />
+if (analogRead(RI)<=35 && analogRead(LF)<=35) <br />
+{<br />
+  <br />
+  analogWrite(EnaA, 100); <br />
+  analogWrite(EnaB, 100); <br />
+  <br />
+  digitalWrite(MotA1, LOW);<br />
+  digitalWrite(MotA2, HIGH);<br />
+  digitalWrite(MotB1, HIGH);<br />
+  digitalWrite(MotB2, LOW);<br />
+}<br />
+else if (analogRead(RI)<=35 && !analogRead(LF)<=35) <br />
+{<br />
+  <br />
+  analogWrite(EnaA, 255); <br />
+  analogWrite(EnaB, 255); <br />
+  <br />
+  digitalWrite(MotA1, LOW);<br />
+  digitalWrite(MotA2, HIGH);<br />
+<br />
+  digitalWrite(MotB1, LOW);<br />
+  digitalWrite(MotB2, HIGH);<br />
+}<br />
+else if (!analogRead(RI)<=35 && analogRead(LF)<=35) <br />
+{ <br />
+  <br />
+  analogWrite(EnaA, 255); //set ri motors speed<br />
+  analogWrite(EnaB, 255); //set lf motors speed<br />
+<br />
+  digitalWrite(MotA1, HIGH);<br />
+  digitalWrite(MotA2, LOW);<br />
+  digitalWrite(MotB1, HIGH);<br />
+  digitalWrite(MotB2, LOW);<br />
+}<br />
+else if (!analogRead(RI)<=35 && !analogRead(LF)<=35) <br />
+{ <br />
+  <br />
+  analogWrite(EnaA, 0); <br />
+  analogWrite(EnaB, 0); <br />
+  digitalWrite(MotA1, LOW);<br />
+  digitalWrite(MotA2, LOW);<br />
+  digitalWrite(MotB1, LOW);<br />
+  digitalWrite(MotB2, LOW);<br />
+  }<br />
+}<br />
+
+            </td>
+        </tr>
+        <tr>
+        	<td colspan="4" style="border-top:1px solid #000000; text-align:center;">
+            	Report Generated on <strong>February 06, 2020</strong> by <a href="https://www.prepostseo.com/" target="_blank">prepostseo.com</a>
+            </td>
+        </tr>
+    </table>
+</div>
+
+</body>
+</html>
